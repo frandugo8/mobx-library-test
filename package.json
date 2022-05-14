@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --watch",
+    "test:ci": "jest --ci",
+    "coverage": "npm test -- --coverage",
+    "coverage-all": "npm test -- --coverage --watchAll",
+    "storybook": "start-storybook -p 6006 -s public"
+
+  },
+  "dependencies": {
+    "mobx": "^6.5.0",
+    "mobx-react": "^7.4.0",
+    "next": "latest",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.51.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "13.2.0",
+    "@testing-library/user-event": "14.2.0",
+    "@types/react": "18.0.9",
+    "jest": "28.1.0",
+    "jest-environment-jsdom": "28.1.0",
+    "typescript": "4.6.4"
+  }
+}
