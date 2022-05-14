@@ -8,8 +8,8 @@
     "test:ci": "jest --ci",
     "coverage": "npm test -- --coverage",
     "coverage-all": "npm test -- --coverage --watchAll",
-    "storybook": "start-storybook -p 6006 -s public"
-
+    "storybook": "start-storybook -p 6006 -s public",
+    "prepare": "husky install"
   },
   "dependencies": {
     "mobx": "^6.5.0",
@@ -24,6 +24,7 @@
     "@testing-library/react": "13.2.0",
     "@testing-library/user-event": "14.2.0",
     "@types/react": "18.0.9",
+    "husky": "^8.0.1",
     "jest": "28.1.0",
     "jest-environment-jsdom": "28.1.0",
     "typescript": "4.6.4"
